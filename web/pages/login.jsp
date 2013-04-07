@@ -8,7 +8,7 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="../resources/css/bootstrap.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resources/css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
         body {
             padding-top: 40px;
@@ -42,7 +42,7 @@
         }
 
     </style>
-    <link href="../resources/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resources/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -70,7 +70,7 @@
 <!-- /container -->
 
 </body>
-<script src="../resources/js/jquery.js"></script>
-<script src="../resources/js/bootstrap.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
 </body>
 </html>
