@@ -27,7 +27,7 @@ public class DeleteContact extends HttpServlet {
             User user = (User) session.getAttribute("user");
             contact.setId(Integer.parseInt(request.getParameter("id")));
             contact.setUserId(user.getId());
-            dao.deleteContact(contact, user); //TODO
+            dao.deleteContact(contact, user);
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
